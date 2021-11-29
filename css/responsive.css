@@ -1,3 +1,4 @@
+/* Small Laptop */
 @media screen and (max-width: 1024px){
     section{
         padding: 60px 0 !important;
@@ -72,6 +73,8 @@
         margin-bottom: 20px;
     }
 }
+/* Small Laptop */
+/* Tablet */
 @media screen and (max-width: 768px){
     section{
         padding: 50px 0 !important;
@@ -182,3 +185,190 @@
         padding: 50px 40px;
     }
 }
+/* Tablet */
+/* Mobile Large */
+@media screen and (max-width: 425px){
+    section {
+        padding: 30px 0 !important;
+    }
+    .container{
+        max-width: 380px;
+    }
+    h1{
+        font-size: 36px !important;
+    }
+    h2{
+        font-size: 32px !important;
+    }
+    h3{
+        font-size: 28px !important;
+    }
+    h4{
+        font-size: 20px !important;
+    }
+    h5{
+        font-size: 18px !important;
+    }
+    h6, a{
+        font-size: 16px !important;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    nav {
+        width: 100%;
+        flex-basis: 100%;
+        margin: 20px 0;
+    }
+    nav ul li a {
+        padding: 5px;
+        font-size: 14px;
+    }
+    .nav-btn {
+        width: 100%;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .nav-btn a, .banner-text a, .register-btn a {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+    .banner-img {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .banner-text p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .counter-box {
+        width: 50%;
+        padding: 10px;
+    }
+    .counter-section .blue{
+        width: 100%;
+    }
+    .feature-box {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .course-curriculum {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .course-promo iframe {
+        height: 215px;
+    }
+    .course-outline {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .course-module-info {
+        max-width: 33.33%;
+        flex-basis: 33.33%;
+    }
+    .popular-course-box {
+        max-width: 100%;
+        flex-basis: 100%;
+        margin: 20px 0;
+    }
+    .stories-section{
+        padding: 80px 0 !important;
+    }
+    .success-slider {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .student-details {
+        padding: 20px;
+    }
+    .green-bg-box {
+        top: -30px;
+        left: -15px;
+        height: 200px;
+        width: 410px;
+    }
+    .slider-control span {
+        height: 10px;
+        width: 10px;
+    }
+    .success-stories,.live-class-content {
+        text-align: center;
+    }
+    .discount {
+        background-size: cover;
+    }
+    .discount-form {
+        max-width: 100%;
+        flex-basis: 100%;
+        padding: 15px;
+    }
+    .branch-info {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .branch-name-address {
+        padding: 40px 30px;
+    }
+}
+/* Mobile Large */
+/* Mobile Medium */
+@media screen and (max-width: 375px){
+    .container{
+        max-width: 330px;
+    }
+    nav {
+        margin: 10px 0;
+    }
+    nav ul li a {
+        padding: 10px;
+    }
+    .course-promo iframe {
+        height: 186px;
+    }
+    .course-module-info {
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+    .course-module-icon {
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+        padding: 25px;
+    }
+    .stories-section {
+        padding: 70px 0 !important;
+    }
+    .green-bg-box {
+        top: -30px;
+        left: -15px;
+        height: 200px;
+        width: 360px;
+    }
+    .branch-name-address {
+        padding: 20px;
+    }
+    .footer-item {
+        max-width: 100%;
+        flex-basis: 100%;
+        padding: 0 20px;
+        margin: 10px 0;
+    }
+}
+/* Mobile Medium */
+/* Mobile Smaill */
+@media screen and (max-width: 320px){
+    .container{
+        max-width: 300px;
+    }
+    .course-promo iframe {
+        height: 170px;
+    }
+    .green-bg-box {
+        top: -20px;
+        left: -5px;
+        width: 310px;
+    }
+    
+}
+/* Mobile Smaill */
