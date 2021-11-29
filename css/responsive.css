@@ -1,0 +1,184 @@
+@media screen and (max-width: 1024px){
+    section{
+        padding: 60px 0 !important;
+    }
+    .container{
+        max-width: 960px;
+    }
+    .logo {
+        width: 100%;
+        flex-basis: 100%;
+        text-align: center;
+        text-align: -moz-center;
+        text-align: -webkit-center;
+        margin-bottom: 10px;
+    }
+    nav {
+        width: 80%;
+        flex-basis: 80%;
+    }
+    .nav-btn {
+        width: 20%;
+        flex-basis: 20%;
+        text-align: center;
+    }
+    .banner-text h1 {
+        font-size: 48px;
+        line-height: 1.2;
+    }
+    .counter-section{
+        padding: 0 !important;
+    }
+    .counter-box {
+        width: 20%;
+        padding: 25px;
+    }
+    .stories-section {
+        padding: 150px 0 !important;
+    }
+    .course-promo iframe{
+        height: 325px;
+    }
+    .course-module-info {
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+    .course-module-icon {
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+    }
+    .popular-course-box {
+        max-width: 33.33%;
+        flex-basis: 33.33%;
+    }
+    .success-stories {
+        max-width: 40%;
+        flex-basis: 40%;
+    }
+    .success-colmun-gap {
+        max-width: 10%;
+        flex-basis: 10%;
+    }
+    .branch-name-address h3 {
+        font-size: 24px;
+    }
+    .footer-item {
+        max-width: 50%;
+        flex-basis: 50%;
+        padding: 0 20px;
+    }
+    .footer-item p {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    section{
+        padding: 50px 0 !important;
+    }
+    .container {
+        max-width: 720px;
+    }
+    nav ul li a {
+        padding: 15px;
+    }
+    .nav-btn a {
+        text-decoration: none;
+        color: #fff;
+        padding: 15px 20px;
+        display: inline-block;
+        border: 1px solid #fff;
+        background-color: #222E5E;
+        border-radius: 10px;
+        transition: all 0.5s ease-in-out;
+    }
+    .banner-elements {
+        flex-direction: column-reverse;
+    }
+    .banner-text {
+        max-width: 100%;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .banner-img {
+        max-width: 100%;
+        flex-basis: 100%;
+        padding: 50px;
+    }
+    .counter-section{
+        padding: 0 !important;
+    }
+    .counter-box {
+        width: 20%;
+        padding: 20px;
+    }
+    .feature-box {
+        max-width: 50%;
+        flex-basis: 50%;
+        margin: 20px 0;
+    }
+    .feature-box-item {
+        padding: 15px;
+    }
+    .course-promo iframe {
+        height: 244px;
+    }
+    .course-details-img {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .course-details-text {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .course-details:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+    .course-module-icon {
+        height: 80px;
+        width: 80px;
+        line-height: 80px;
+        padding: 20px;
+    }
+    .popular-course-box {
+        max-width: 50%;
+        flex-basis: 50%;
+        padding: 0 10px;
+    }
+    .stories-section {
+        padding: 150px 0 !important;
+    }
+    .stories {
+        flex-direction: column-reverse;
+    }
+    .success-stories {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .success-slider {
+        max-width: 90%;
+        flex-basis: 90%;
+        margin-left: auto;
+        margin-bottom: 50px;
+    }
+    .live-class {
+        flex-direction: column;
+    }
+    .live-class-thumbnail {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .live-class-content {
+        max-width: 100%;
+        flex-basis: 100%;
+        margin-top: 30px;
+        padding-left: 0;
+    }
+    .discount-form {
+        max-width: 60%;
+        flex-basis: 60%;
+    }
+    .branch-name-address {
+        padding: 50px 40px;
+    }
+}
